@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-03 09:18:09 SA"/>
+        <attribute name="created" value="QWNlcjtMQVBUT1AtMVRCN0FWVU87MjAyMC0wMy0wMzswOToxMjowOCBTQTsyNzIy"/>
+        <attribute name="edited" value="QWNlcjtMQVBUT1AtMVRCN0FWVU87MjAyMC0wMy0wMzswOToxODowOSBTQTs0OzI4NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="x" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nhap b&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a==0">
+                <then>
+                    <output expression="&quot;phuong trinh vo nghiem&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="&quot;phuong trinh co nghiem la    &quot; &amp;x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
